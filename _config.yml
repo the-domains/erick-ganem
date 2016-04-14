@@ -1,14 +1,26 @@
-layout_spectrum: 0.2207304
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 1
 color:
-  saturation: 0.6138561
+  saturation: 0.5988185
   brandStrength: 0.3331794
-  lightness: 0.7459721
-  rhythmicContrast: 0.2486573
+  lightness: 0.6417831
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-typography_spectrum: 1
+  rhythmicContrast: 0.792159
+layout_spectrum: 0.2207304
 name: Erick Ganem
